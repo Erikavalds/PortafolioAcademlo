@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Erika Martinez Valdes ">
+  <meta name="description"
+    content="Passionate web developer, specializing in creating responsive and functional websites. Explore my projects and skills in design and programming..">
+  <meta name="keywords"
+    content="professional-portfolio, web-developer, web-developer-female, responsive-websites, web-projects, back-end, front-end">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- íconos -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Erika M. Valdes Portafolio</title>
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/main.js"></script>
+  <!-- EmailJS  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "vJo3-2op9uk6UT6NW",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <!-- Loader -->
+  <div class="loader flex--container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 268" class="loader__logo">
+      <path fill="currentColor"
+        d="M108.473 2.81055C114.675 -0.783262 122.325 -0.783265 128.527 2.81055L226.74 59.7212C232.912 63.298 236.712 69.8919 236.712 77.0259V190.974C236.712 198.108 232.912 204.702 226.74 208.279L128.527 265.189C122.325 268.783 114.675 268.783 108.473 265.189L10.2601 208.279C4.08755 204.702 0.287529 198.108 0.287529 190.974V77.0259C0.287529 69.8919 4.08754 63.298 10.2601 59.7212L108.473 2.81055Z">
+      </path>
+    </svg>
+  </div>
+  <header class="header">
+    <nav class="navbar grid--container flex--container">
+      <a href="#" class="navbar__logo flex--container"> <img src="assets/img/logo.png" width="50" alt="">Erika</a>
+
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class='bx bx-message-square-x btn__close navbar__icon flex--container'></i></a>
+
+        <ul class="navbar__list flex--container">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">About me</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portfolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__toggles flex--container">
+        <div class="navbar__toggle--darkmode flex--container">
+          <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
+          <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+            <i class="bx bx-sun navbar__toggle--darkmode-sun"></i>
+            <i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
+          </label>
+        </div>
+        <div class="navbar__toggle--language flex--container">
+          <input type="checkbox" name="language-toggle" id="language-toggle" class="navbar__toggle--language-input" />
+          <label for="language-toggle" class="navbar__toggle--language-label"></label>
+        </div>
+      </div>
+      <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+      <i class="bx bxl-javascript home__layer home__layer--2" data-speed="5"></i>
+      <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+      <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+      <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+      <i class="bx bxl-tailwind-css home__layer home__layer--6" data-speed="-2"></i>
+      <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+      <i class="bx bxl-typescript home__layer home__layer--8" data-speed="-2"></i>
+      <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+      <i class="bx bxl-graphql home__layer home__layer--10" data-speed="-7"></i>
+      <i class="bx bx-code-alt home__layer home__layer--11" data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <img src="assets/img/profile.png" alt="profile photo" title="Erika Martinez Valdes">
+        </div>
+
+        <ul class="home__social flex--container">
+          <li class="home__social-item">
+            <a href="" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a href="" target="_blank" class="home__social-link"><i class='bx bxl-whatsapp'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a href="" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a href="" target="_blank" class="home__social-link"><i class='bx bx-envelope'></i></a>
+          </li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">Hey, I'm Erika</h1>
+
+          <p class="home__description"> I am a passionate web developer, specializing in creating responsive and
+            functional websites. Explore my projects and skills in design and programming.</p>
+        </div>
+
+        <div class="home__buttons">
+          <a class="btn btn--primary" href="" title="Descargar mi CV" download="my_cv">
+            Download my CV</a>
+        </div>
+
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          I am a passionate web developer in training, with a strong background in marketing and design. With a degree
+          in marketing and years of experience as a designer and tattoo artist, I have cultivated a creative and
+          detail-oriented approach in all my projects. My design experience has provided me with a deep understanding of
+          aesthetics and usability, allowing me to create engaging and functional digital experiences. Currently, I am
+          focused on expanding my web development skills, combining my previous training with my new technical abilities
+          to deliver innovative and effective solutions.
+        </p>
+
+        <div class=" about__cards  flex--container">
+          <!-- Card1 -->
+          <div class="about__card">
+            <img src="assets/img/me_1.jpg" class="about__card--img" alt="Working as a tattoo artist"
+              title="Working as a tattoo artist">
+          </div>
+          <!-- Card2 -->
+          <div class="about__card">
+            <img src="assets/img/me_2.jpg" class="about__card--img" alt="Laborando como diseñador"
+              title="Laborando como diseñador">
+          </div>
+          <!-- Card3 -->
+          <div class="about__card">
+            <img src="assets/img/me_3.jpg" class="about__card--img" alt="Laborando en equipo"
+              title="Laborando en equipo">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Skills</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description flex--container">
+          I have skills in HTML, CSS, and JavaScript, which enable me to create interactive and engaging interfaces. I
+          use React to develop dynamic user applications and manage the backend of my projects with Node.js. My approach
+          combines design and development, allowing me to create functional and aesthetically pleasing experiences. I am
+          excited to continue growing and exploring new opportunities in the field of web development.
+        </p>
+
+        <div class="skills__wrapper flex--container">
+          <div class="skills__cards flex--container">
+            <!--Card 1 -->
+            <details class="skills__cards-container" name="moreInfo" open>
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-html5 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">HTML</h3>
+
+                <p class="skills__card-description">
+                  I have a deep understanding of syntax and document structure, paying close attention to detail to
+                  ensure correct implementation. I value accessibility and apply best practices to optimize content for
+                  all users. Additionally, I have knowledge of SEO, which helps me improve search engine rankings. I
+                  easily adapt to complementary technologies like CSS and JavaScript, and I always strive to stay
+                  updated with best practices and web standards.
+                </p>
+              </div>
+            </details>
+            <!--Card 2 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-css3 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">CSS3</h3>
+
+                <p class="skills__card-description">
+                  I handle properties and syntax to effectively design and style pages, focusing on presentation and
+                  aesthetics. I strive to organize the code in a way that is easy to maintain and understand, using
+                  selectors and rules to apply styles accurately. Additionally, I always seek to stay updated with best
+                  practices and techniques to optimize performance and accessibility across different devices and
+                  browsers.
+                </p>
+              </div>
+            </details>
+            <!--Card 3 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-javascript flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">Javascript</h3>
+
+                <p class="skills__card-description">
+                  I handle syntax and functions to create interactivity and dynamism on web pages, enhancing the user
+                  experience. I focus on writing clean and efficient code, utilizing best practices and design patterns.
+                  Additionally, I have experience in DOM manipulation and API integration, allowing me to develop
+                  complete web applications. I always strive to stay updated with the latest trends and technologies in
+                  the JavaScript ecosystem to continually improve my skills.
+                </p>
+              </div>
+            </details>
+            <!--Card 4 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-react flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">React</h3>
+
+                <p class="skills__card-description">
+                  I use this library to build interactive and efficient user interfaces, leveraging reusable components
+                  and state management to handle application logic. I focus on writing clean and modular code, adhering
+                  to best practices and design patterns. Additionally, I have experience in API integration and state
+                  management with tools like Redux. I always strive to stay updated with the latest updates and trends
+                  in the React ecosystem to continuously improve my skills and deliver exceptional user experiences.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="skills__tags flex--container">
+          <h3 class="skills__tags-title">Soft Skills</h3>
+          <div class="skills__tags-container flex--container">
+            <span class="skills__tag">Responsible</span>
+            <span class="skills__tag">Team work</span>
+            <span class="skills__tag">Creative</span>
+            <span class="skills__tag">Punctual</span>
+            <span class="skills__tag">Proactive</span>
+            <span class="skills__tag">Self-taught</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.jpg" alt="project 1" title="Ecommerce Vanilla" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Project 1</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  SEE DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  SEE CODE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1" title="Consumiendo API Pokemon con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Project 2</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  SEE DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  SEE CODE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.jpg" alt="project 1" title="CRUD con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Project 3</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  SEE DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  SEE CODE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1" title="Aplicación del tiempo con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Project 4</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  SEE DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  SEE CODE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contact</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Contact Information</h3>
+          <p class="contact__info-description">
+            Get in touch with me and let's start working together!
+          </p>
+
+          <address class="contact__info-data">
+            <div class="contact__info-item">
+              <i class="bx bxl-whatsapp"></i>
+
+              <span class="contact__info-number">
+                <a href="https://wa.me/+524421792151?text=Tu%20Mensaje%20De%20Texto" target="_blank"
+                  rel="noreferrer nofollow">Send message via WhatsApp</a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+
+              <span class="contact__info-number">
+                <a href="tel:+52 442 179 2151" target="_blank" rel="noreferrer nofollow">
+                  +52 442 179 2151
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+
+              <span class="contact__info-mail">
+                <a id="mail" href="mailto:erika.mv11@hotmail.com" target="_blank" rel="noreferrer nofollow">
+                  erika.mv11@hotmail.com
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+
+              <span class="contact__info-map"> Querétaro, México. </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Send message</h3>
+
+
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Name</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">email</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Message</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+            <dialog class="contact__form-modal" id="modal">
+              Form submitted successfully!
+              <button type="reset" id="btn_close-modal">Close</button>
+            </dialog>
+
+            <button type="submit" class="btn contact__form-button">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Erika Martinez Valdes</h3>
+        <p class="footer__description">
+          I am a passionate web developer, specializing in creating responsive and functional websites. Explore my
+          projects and skills in design and programming.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Social media</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.facebook.com/profile.php?id=100004833376612"
+              target="_blank" rel="noreferrer nofollow"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/eval.dess?igsh=MXd6Zm4xMzdycnY2aQ=="
+              target="_blank" rel="noreferrer nofollow"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.linkedin.com/in/erika-vald%C3%A9s-mkt/" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy"></p>
+  </footer>
+
+</body>
+
+</html>
